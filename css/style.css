@@ -112,6 +112,16 @@ h2 {
   background-size: cover;
   margin: 9px 0px;
 }
+div > .country-block:hover {
+  filter: brightness(30%);
+  transform: scale(1.5);
+}
+div > .country-block:hover:before {
+  display: inline-block;
+  content: url('../img/icon.png');
+  margin: 20px 120px;
+
+}
 .box1 {
   background-image: url('../img/box1.jpg');
 }
@@ -223,6 +233,16 @@ ul.list2 li {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 15px;
 }
+.bottom-circle {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #5DADE2;
+  bottom: 60px;
+  right: 100px;
+  z-index: 9999;
+}
 @media only screen and (max-width: 1023px) {
     .wrapper {
         min-width: 768px;
@@ -323,6 +343,7 @@ ul.list2 li {
       width: 400px;
       left: -20px;
     }
+
 @media only screen and (max-width: 768px) {
     .wrapper {
         min-width: 480px;
