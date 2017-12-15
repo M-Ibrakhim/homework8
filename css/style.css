@@ -240,7 +240,7 @@ ul.list2 li {
   border-radius: 50%;
   background-color: #5DADE2;
   bottom: 60px;
-  right: 100px;
+  right: 130px;
   z-index: 9999;
 }
 @media only screen and (max-width: 1023px) {
